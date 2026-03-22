@@ -1,0 +1,26 @@
+# Real input/output data
+input/*.md
+input/*.MD
+input/**/*.md
+input/**/*.MD
+output/results/*.md
+output/results/*.MD
+output/logs/*
+
+# Keep directory structure and examples
+!input/README.md
+!input/sample_*.md
+!output/results/example_*.md
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
